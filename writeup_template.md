@@ -88,9 +88,9 @@ I then assumed each blob corresponded to a vehicle. I constructed bounding boxes
 
 ---
 
-###Discussion
+### Discussion
 
-####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+#### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 I have spent a lot of time tuning the parameters such as window size as I constantly have tree shadows detected as cars. To further imporve the result, I could average the results over the frames so the box sizes does not jump around so much. In addition, I want to search for better methodologies to deal with shadows and harsh weather conditions.
 
